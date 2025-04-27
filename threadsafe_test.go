@@ -23,7 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-package mapset
+package xtset
 
 import (
 	"encoding/json"
@@ -585,7 +585,7 @@ func Test_ToSliceDeadlock(t *testing.T) {
 }
 
 func Test_UnmarshalJSON(t *testing.T) {
-	s := []byte(`["test", "1", "2", "3"]`) //,["4,5,6"]]`)
+	s := []byte(`["test", "1", "2", "3"]`) // ,["4,5,6"]]`)
 	expected := NewSet(
 		[]string{
 			string(json.Number("1")),

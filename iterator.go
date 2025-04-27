@@ -23,7 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-package mapset
+package xtset
 
 // Iterator defines an iterator over a Set, its C channel can be used to range over the Set's
 // elements.
